@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { useRef } from "react";
 import '../styles/formStyle.css'
 import { Layout } from 'antd';
 import { Form, Input, Button } from 'antd';
@@ -11,9 +10,7 @@ const Signup = () => {
       navigate('../login')
       }
 
-      let userEmailRef = useRef('Null')
-      let userEmail = userEmailRef.current.value;
-      console.log(userEmail)
+
   return (
 
     <div>
